@@ -1,4 +1,9 @@
-//快速排序
+/**
+ * 
+ * 排序算法：快速排序
+ * 平均时间复杂度：O(nlgn)
+ * 稳定性：不稳定
+ */
 public void quickSort(int[] array,int start,int end){
     if(start<end){
         int x=array[start];
